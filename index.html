@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Gryffindor | Home</title>
+
+    <link rel="shortcut icon" href="grfy.jpg" type="image/x-icon">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+
+    body {
+        background-color: #000000;
+    }
+
+    .logo {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 33%;
+        border: 3px solid #FFF;
+        border-radius: 50px;
+    }
+
+    .navbar {
+        display: flex;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-list {
+        display: flex;
+        width: 50%;
+    }
+
+    .nav-list li {
+        list-style: none;
+        padding: 10px 5px;
+    }
+
+    .rightNav {
+        width: 50%;
+        text-align: right;
+        padding: 0 23px;
+    }
+
+    button {
+        background: none;
+        border: 3px solid #00FF00;
+        border-radius: 7px;
+        font-size: 25px;
+        font-family: 'Lobster Two';
+    }
+
+    button a {
+        text-decoration: none;
+        color: #FFFFFF;
+        transition: 0.6s ease;
+    }
+
+    button a:hover {
+        color: cyan;
+    }
+
+    .nav-list li {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 25px;
+        font-family: 'Lobster Two';
+        justify-content: center;
+        align-items: center;
+        transition: 0.6s ease;
+    }
+
+    .nav-list li:hover {
+        color: yellow;
+    }
+
+    #tg {
+        font-size: 35px;
+        color: #FFFFFF;
+        font-family: 'Lobster Two';
+        text-align: center;
+    }
+
+    #wel {
+        font-size: 35px;
+        color: #00FFFF;
+        font-family: 'Lobster Two';
+        text-align: center;
+    }
+
+    ::-webkit-scrollbar {
+        width: 15px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #000000;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #FFFFFF;
+        border-radius: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: yellow;
+    }
+
+    @media only screen and (max-width: 1140px) {
+        .nav-list {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .navbar {
+            flex-direction: column;
+        }
+
+        .rightNav {
+            text-align: center;
+        }
+
+        #tg {
+            text-align: center;
+        }
+
+        #wel {
+            text-align: center;
+        }
+    }
+</style>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="grfy.jpg" alt="Gryffindor"></div>
+            <li>Home</li>
+        </ul>
+        <div class="rightNav">
+            <button><a href="mem.html">&nbsp;&nbsp;Members&nbsp;&nbsp;</a></button>
+        </div>
+    </nav>
+
+    <br>
+
+    <center><img src="grfy.jpg" alt="Gryffindor"></center>
+
+    <h1 id="tg">Team Gryffindor</h1>
+
+    <h2 id="wel">Welcome to Team Gryffindor's Official Website!!</h2>
+</body>
+</html>
